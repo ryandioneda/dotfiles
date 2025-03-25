@@ -1,0 +1,130 @@
+{
+    // appearance
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "glassit.alpha": 200,
+    "workbench.colorTheme": "Drkryz Dark Theme",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "workbench.tips.enabled": false,
+    "workbench.startupEditor": "welcomePage",
+    "workbench.editor.showTabs": "multiple",
+    "window.density.editorTabHeight": "compact",
+    "window.restoreWindows": "none",
+    // vscode vim settings
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.useCtrlKeys": true,
+    // vscode vim appearance
+    "editor.cursorSurroundingLines": 10,
+    "vim.smartRelativeLine": true,
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.color": "rgba(45, 88, 115, 0.5)",
+    "vim.highlightedyank.textColor": "#fffff0",
+    "vim.highlightedyank.duration": 250,
+    // which key settings
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<space>"
+            ],
+            "commands": [
+                "whichkey.show"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        }
+    
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<space>"
+            ],
+            "commands": [
+                "whichkey.show"
+            ]
+        }
+    ],
+    "whichkey.bindings": [
+        {
+            "key": "/",
+            "name": "[/] Fuzzy search in current editor",
+            "type": "command",
+            "command": "fuzzySearch.activeTextEditor",
+        },
+        {
+            "key": "a",
+            "name": "[A]dd editor to harpoon",
+            "type": "command",
+            "command": "vscode-harpoon.addEditor",
+        },
+        {
+            "key": "f",
+            "name": "[F]ind file",
+            "type": "command",
+            "command": "workbench.action.quickOpen",
+        },
+
+        {
+            "key": "t",
+            "name": "Open File [T]ree",
+            "type": "command",
+            "command": "workbench.view.explorer"
+        },
+        {
+            "key": "r",
+            "name": "[R]ecent files",
+            "type": "workbench.action.openRecent",
+        },
+        {
+            "key": "c",
+            "name": "[C]urrent Harpoon editors",
+            "type": "vscode-harpoon.editorQuickPick"
+        },
+        {
+            "key": "s",
+            "name": "[S]earch",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "p",
+                    "name": "[S]earch Command [P]alette",
+                    "type": "command",
+                    "command": "workbench.action.showCommands"
+                },
+
+                {
+                    "key": "k",
+                    "name": "[S]earch [K]eybindings",
+                    "type": "command",
+                    "command": "workbench.action.openGlobalKeybindings" 
+                },
+
+                {
+                    "key": "e",
+                    "name": "[S]earch [E]xtensions",
+                    "type": "command",
+                    "command": "workbench.view.extensions" 
+                },
+            ],
+        },
+
+
+    ],
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.location": "bottom",
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
+    "git.openRepositoryInParentFolders": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "vscode_custom_css.imports": [
+        "file:///c:/Users/erdio/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ],
+}
